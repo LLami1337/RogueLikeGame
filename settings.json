@@ -1,0 +1,49 @@
+{
+  "items": {
+    "%": {
+      "ammo": 4,
+      "spawnRate": 0.005
+    },
+    "+": {
+      "healRestoration": 3,
+      "spawnRate": 0.0025
+    }
+  },
+  "map": {
+    "height": 40,
+    "width": 80
+  },
+  "meleeEnemies": {
+    "Z": {
+      "dmg": 1,
+      "maxHp": 10,
+      "moveCd": 4,
+      "sightRange": 15,
+      "spawnRate": 0.2
+    },
+    "G": {
+      "dmg": 1,
+      "maxHp": 10,
+      "moveCd": 1,
+      "sightRange": 30,
+      "spawnRate": 0.15
+    }
+  },
+  "player": {
+    "dmg": 3,
+    "hp": 10,
+    "shotDmg": 3,
+    "sightRange": 20
+  },
+  "rangeEnemies": {
+    "S": {
+      "dmg": 1,
+      "maxHp": 10,
+      "moveCd": 3,
+      "shotCd": 10,
+      "shotDmg": 3,
+      "sightRange": 15,
+      "spawnRate": 0.1
+    }
+  }
+}
